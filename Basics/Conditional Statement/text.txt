@@ -1,0 +1,30 @@
+conditional Statement
+        
+        +-------------------+---------------------------+
+        | Statement         | Syntax                    |
+        +-------------------+---------------------------+
+        | if                | if ( Condition ) {        |
+        |                   |     Statement;            |
+        |                   | }                         |
+        +-------------------+---------------------------+
+        | if else           | if ( Condition ) {        |
+        |                   |     Statement;            |
+        |                   | } else {                  |
+        |                   |     Statement;            |
+        |                   | }                         |
+        +-------------------+---------------------------+
+        | Cascading if      | if ( Condition ) {        |
+        |                   |     Statement;            |
+        |                   | } else if ( Condition ) { |
+        |                   |     Statement;            |
+        |                   | } else {                  |
+        |                   |     Statement;            |
+        |                   | }                         |
+        +-------------------+---------------------------+
+        | Nested if         | if ( Condition ) {        |
+        |                   |     if ( Condition ) {    |
+        |                   |         Statement;        |
+        |                   |     }                     |
+        |                   | }                         |
+        +-------------------+---------------------------+
+                

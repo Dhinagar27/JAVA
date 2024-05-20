@@ -1,0 +1,16 @@
+Architecture
+   
+   JRE - Java Runtime Environment 
+   JVM - Java Virtual Machine
+   JDK - Java Development kit 
+
+   source Code( .Java)
+          |
+      JRE (Compile) WORA - Write Once Read AnyWhere
+          |
+     Byte Code ( .class)
+          |
+    Machine Code 
+          |
+       Execution 
+        

@@ -1,0 +1,15 @@
+Input 
+   
+  class - Scanner
+
+   boolean nextBoolean()
+
+   int   nextLnt()
+   byte  nextByte()
+   short nextShort()
+   long  nextLong()
+
+   float  nextFloat()
+   double nextDouble()
+
+   char next().charAt(0)  if value changes to 2 or etc the character at the position will be displayed

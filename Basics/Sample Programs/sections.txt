@@ -1,0 +1,27 @@
+Different section in java program
+  
+  1.Documentation Section
+  2.link Section
+       
+       import java.util.*;
+
+  3.Data definition
+  4.Global variable
+  5.Class
+     
+     public static void main()
+
+       public keyword (it can be used by everyone)
+       static keyword (it is storage class )
+       void keyword   (it means return nothing)
+       main keyword   (it means main function)
+
+    prameter (String[] args)
+       
+       [] - subs Script operator
+
+    System.out.println()
+       
+       System - It holds bundle of codes
+       out    - It is system accessor
+       print  - output stream

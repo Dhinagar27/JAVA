@@ -1,0 +1,52 @@
+
+Data type - Type of Data
+   useage 
+      to allocate memory 
+      to indicate the type of data
+
+Data types in java
+
+     Primitive Data Type (or) Primary
+      
+         Boolean Type
+            Boolean (1 byte)
+           
+         Numaric Type
+
+           character Type 
+             char (2 bytes)
+
+               ACII value for characters
+
+                 A - Z  65 - 90
+                 a - z  97 - 122
+                 0 - 9  48 - 57
+                 space  32
+                 null   0
+
+           Integer Type 
+
+              Integer
+                 Byte  (1 byte )
+                 short (2 byte)
+                 int   (4 byte)
+                 long  (8 byte)
+
+             Floating point
+                 Float  (4 byte) 
+                 Double (8 byte)
+
+     Non Primitive Date Type 
+
+         String 
+         Array
+
+Format specifier
+   
+   Data type                  Format specifier
+
+   Byte,short,int,long        %c 
+   float                      %f 
+   char                       %c
+   String                     %s
+  

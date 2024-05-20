@@ -1,0 +1,18 @@
+Variables
+
+   A Variable is a Container Which holds the Value while the Java program is Executed
+   A Variable is Assigned whith a Data Type
+   A Variable is a name of the memory location
+   A Variable name is depends on Uesr
+
+   Example: 
+     
+     int var = 50;
+     var is a Variable Name
+
+   Rules:
+     
+     Name cant be Keyword 
+     Name cant be start with the number and special characters
+     Name only start with underscore and normal words
+     There is no space between the names

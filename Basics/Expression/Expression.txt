@@ -1,0 +1,31 @@
+Expression 
+      
+      combination of operator and operants 
+      example :
+           a = a + b;
+
+Expression
+    Combination of operands and operators
+
+    Rules
+        Should have atleast one operator
+        Should have atleast one operand
+
+    Precedence & Associativity
+        Operator    Precedence    Associativity    Type
+        ()          1             L to R           Unary
+        ++ --       2             R to L           Unary
+        + -         3             R to L           Unary
+        * / %       4             L to R           Binary
+        + -         5             L to R           Binary
+        < > <= >=   6             L to R           Binary
+        == !=       7             L to R           Binary
+        &           8             L to R           Binary
+        ^           9             L to R           Binary
+        |           10            L to R           Binary
+        &&          11            L to R           Binary
+        ||          12            L to R           Binary
+        ? :         13            R to L           Ternary
+        = += -=...  14            R to L           Assignment
+
+        Paranthesis -> Unary -> Binary -> Ternary -> Assignment

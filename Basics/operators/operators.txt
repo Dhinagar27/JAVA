@@ -1,0 +1,74 @@
+Operator
+   
+   are symbols that perform the operation on operant
+
+Exmaple 
+
+    a = 10; a = operant  " = " = operator
+
+Types of operator
+   
+   Unary operator - 1 operant
+
+       +  (plus)
+       -  (minus)
+       ++ (increment)
+          post increment ( a++ )
+          pre  increment ( ++a)
+       -- (decrement)
+          post decrement ( a-- )
+          pre  decrement ( --a )
+
+   Binary operator - 2 operants
+
+        Arithmetic operator
+            
+            + (Addition)
+            - (Subtraction)
+            * (Multiplication)
+            / (Division)
+            % (Remainder)
+        
+        Relational operator (Used to compare two numbers or two operants)
+            
+            == (Equal)
+            != (Not Equal)
+            <  (less than)
+            >  ( Greater than)
+            >= (Greater than or equal to)
+            <= (less than or equal to)
+
+        Assignment operator (used to assign in order of right to left)
+          
+            =  (Assignment) 
+            += (Addition Assignment )
+            -=  (Subtraction Assignment )
+            *= (Multiplication Assignment)
+            /= (Division Assignment)
+            %= (modulus Assignment)
+
+        logical operators (logically based on short circuit)
+
+            if the statement is false or true it will not move to next statement
+            
+            && always hunt a false 
+            || always hunt a true
+            !  True = False and False = True
+        
+        Bitwise operators ( Bitwise are uesed to perform operation on binary bits)
+
+             if the statement is false or true it will  move to next statement 
+             1 - True And 0 - False
+             
+             & (Bitwise AND)
+             | (Bitwise OR)
+             ^ (Bitwise XOR)
+             << (left Shift)   
+             >> (right Shift)
+             >>> (unsigned right Shift)
+                         
+
+
+   Ternary operator - 3 operants
+
+        ?: (conditonal operator)
