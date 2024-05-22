@@ -1,0 +1,20 @@
+Array
+   colletion of similar data types 
+   continues memory allocation
+   Fixed Size
+
+   Declaration 
+      Data Type [] Variable name = new data type [size];
+
+   initialization
+      variable [ index ] = value;
+
+   Access 
+       variable [ Index ];
+      
+   length 
+       variable.length;
+
+   types
+      single
+      multi
