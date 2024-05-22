@@ -1,0 +1,24 @@
+Iteration - Loop
+        Repeated Execution of Statements
+            +-------------------+---------------------------+
+            | Statement         | Syntax                    |
+            +-------------------+---------------------------+
+            | while             | while ( Condition ) {     |
+            |                   |     Statement;            |
+            |                   | }                         |
+            +-------------------+---------------------------+
+            | do while          | do {                      |
+            |                   |     Statement;            |
+            |                   | } while ( Condition );    |
+            +-------------------+---------------------------+
+            | for               | for ( Initialization;     |
+            |                   |      Condition;           |
+            |                   |      Increment ) {        |
+            |                   |     Statement;            |
+            |                   | }                         |
+            +-------------------+---------------------------+
+            | for each          | for ( Data Type Variable :|
+            |                   |      Array ) {            |
+            |                   |     Statement;            |
+            |                   | }                         |
+            +-------------------+---------------------------+
