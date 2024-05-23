@@ -18,3 +18,8 @@ Array
    types
       single
       multi
+
+Array rotation 
+    
+   left rotation (from very left end) 
+   right rotation (from very rigth end)
