@@ -27,5 +27,6 @@ public class example {
         if (first > last) {
             System.out.printf("Not found");
         }
+        sc.close();
     }
 }

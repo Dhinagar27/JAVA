@@ -1,0 +1,51 @@
+Method
+    Collection of statements
+    Reusable
+    Modular
+    Function
+
+    Declaration
+        Access Modifier Return Type Method Name ( Parameters ) { }
+
+    Access Modifier
+        public - Accessible from anywhere
+        private - Accessible only within the class
+        protected - Accessible within the package and sub classes
+        default - Accessible within the package
+
+    Return Type
+        Data Type
+
+    Method Name
+        Should be a valid name
+
+    Parameters
+        Data Type Variable
+
+    Syntax
+        Access Modifier Return Type Method Name ( Parameters ) { }
+
+    Types
+        Static
+        Non Static
+
+    Return
+        return Value;
+
+    Call
+        Method Name ( Parameters );
+
+    Overloading
+        Same method name with different parameters
+
+    Overriding
+        Same method name with same parameters in parent and child class
+
+    Recursion
+        Method calling itself
+
+    Types
+        With Return Type
+        Without Return Type
+
+    
