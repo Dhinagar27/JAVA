@@ -6,10 +6,12 @@ public class func {
         int num = sc.nextInt();
         int num2 = sc.nextInt();
         System.out.println(sum(num, num2));
+        sc.close();
 
     }
 
     public static int sum(int a, int b) {
         return a + b;
+
     }
 }

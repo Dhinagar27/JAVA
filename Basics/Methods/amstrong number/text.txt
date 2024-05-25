@@ -1,0 +1,23 @@
+Amstrong number
+
+(A, B, C, …, N) are the digits of the number.
+(n) is the total count of digits.
+For example, consider the number 153:
+
+It has three digits (1, 5, 3).
+We raise each digit to the power of 3 (since there are three digits), and then sum them up:
+(1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153)
+Since the result equals the original number, we can confirm that 153 is indeed an Armstrong number.
+
+370: (3^3 + 7^3 + 0^3 = 370)
+371: (3^3 + 7^3 + 1^3 = 371)
+407: (4^3 + 0^3 + 7^3 = 407)
+1634: (1^4 + 6^4 + 3^4 + 4^4 = 1634)
+8208: (8^4 + 2^4 + 0^4 + 8^4 = 8208)
+9474: (9^4 + 4^4 + 7^4 + 4^4 = 9474)
+Some interesting facts about Armstrong numbers:
+
+All single-digit numbers are Armstrong numbers because raising a single digit to the power of 1 yields the original number itself.
+There are no 2-digit Armstrong numbers.
+There are four 3-digit Armstrong numbers and three 4-digit Armstrong numbers.
+As the number of digits increases, the count of Armstrong numbers decreases

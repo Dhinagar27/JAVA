@@ -1,0 +1,7 @@
+Adam number
+  
+   Let’s take the number 12.
+       Square of 12 = 144
+       Reverse of 12 = 21
+       Square of 21 = 441
+The squares of 12 and 21 are reversals of each other, so 12 is an Adam number.
