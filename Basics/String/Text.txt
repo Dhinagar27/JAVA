@@ -1,0 +1,67 @@
+Strings 
+    
+    String "string"
+
+  literals 
+    
+     by using new keyword 
+
+     String str = "Nandha";
+
+     char[] str1 = {'n','a','n','d','h','a'}; 
+
+     String str2 = new String(str1);
+
+intput for the user 
+
+    String str = obj.nextLine();
+
+String methods
+    
+    length() -->
+
+        String name.length();
+
+         Str.length()
+
+    charAt() --> To access a particular char in String
+        
+        name.charAt(index_value);
+
+String
+    Collection of characters
+    Immutable
+
+    Declaration
+        String Variable = "Value";
+
+    Concatenation
+        Variable + "Value";
+
+    Length
+        Variable.length();
+
+    Methods
+        +-------------------+-------------------+
+        | Method            | Description       |
+        +-------------------+-------------------+
+        | charAt()          | char              |
+        | indexOf()         | int               |
+        | lastIndexOf()     | int               |
+        | substring()       | String            |
+        | replace()         | String            |
+        | toLowerCase()     | String            |
+        | toUpperCase()     | String            |
+        | trim()            | String            |
+        | startsWith()      | boolean           |
+        | endsWith()        | boolean           |
+        | equals()          | boolean           |
+        | equalsIgnoreCase()| boolean           |
+        | compareTo()       | int               |
+        | compareToIgnoreCase()| int            |
+        | contains()        | boolean           |
+        | split()           | String []         |
+        | valueOf()         | String            |
+        | toString()        | String            |
+        +-------------------+-------------------+
+       
