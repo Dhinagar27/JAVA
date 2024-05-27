@@ -1,0 +1,56 @@
+OOPs 
+   Object oriented programing 
+
+   purpose 
+      The main purpose of oops to deal with real world entity using programing language
+
+    Component 
+        
+        class 
+        Object
+        abstraction
+        inheritance 
+        polymorphism
+        encapsulation
+
+Class 
+    
+    A class is group of onjects which have common properties
+    It is a template or blueprint from which objects are created
+    It is a logical entity
+    No memory space
+
+    A class in java can Contain:
+
+      variable // instance of variable
+      Methods
+      Consructor
+      block
+      Nested class and interface
+
+new keyword in java
+
+    new - to create an objects
+
+objects
+      
+    An object is an instance of a class 
+    it is a physical entity 
+    memory allocation
+
+    Declaration 
+      ClassName ObjectName = new ClassName();
+
+      Ex = student s = new Student()';
+
+    Access
+
+      ObjectName.variableName;
+      ObjectName.MethodName ();
+
+    Way to initialize object
+       
+       by variable 
+       by method
+      
+       
