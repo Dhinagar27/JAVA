@@ -1,0 +1,1 @@
+using static keyword we can access the class without using the object creation.

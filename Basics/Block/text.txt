@@ -1,0 +1,27 @@
+Static block will be used for provide some information about the program or the process by using it 
+
+there are two type in static block
+   
+   Static Block and Non Block
+
+Static block
+
+it will be executed first in the program 
+
+Syntax
+   
+   Static{
+      
+   }
+
+Non Static block
+
+ it will be executed last in the program
+  
+  Syntax
+      
+      {
+
+      }
+
+ if we want to use the Non static block we should create the obj for the main Block
