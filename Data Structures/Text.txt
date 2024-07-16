@@ -1,0 +1,37 @@
+Data Structures
+   
+   Linear 
+
+    1.Static 
+
+       Arrays
+
+    2.Dynamic 
+
+       1.Linked list 
+
+         Single 
+         Double
+         Circular
+
+       2.Stack
+
+         Pusk 
+         pop
+
+       3.Queue
+
+         EnQueue
+         DeQueue
+
+   Non Linear
+
+      1.Trees
+
+        binary sreach
+        AVL tree
+
+      2.Graphs
+
+       deapth first 
+       breadht
