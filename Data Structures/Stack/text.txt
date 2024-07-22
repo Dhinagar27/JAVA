@@ -1,0 +1,12 @@
+Stack :
+
+stack is the linear data structure
+
+      last in first out
+      first in last out
+
+    operation
+       
+       push (insert)
+       pop  (delete)
+       peek or top
