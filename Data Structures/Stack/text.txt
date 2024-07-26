@@ -1,0 +1,239 @@
+Stack :
+
+stack is the linear data structure
+
+      last in first out
+      first in last out
+
+    operation
+       
+       push (insert)
+       pop  (delete)
+       peek or top
+
+rules
+       
+       (a + b) -> infix
+       ab+     -> postfix
+       +ab     -> prefix
+
+       ab    -> oprandds
+       +,/,- -> operators
+
+  rules  
+      
+     1. priority
+          
+          ^ higher
+          */ next
+          +- lowest
+      
+      2.lowest priority cannot be placed before highest priority
+
+      3. same priority cannot be placed together
+
+      4. {},[],() 
+
+     example program:  ((a + b)* (c -d )/e ^ f) 
+     
+     infix to postfix
+
+
+     Scanning          stack               postfix
+
+       (                  (
+
+       (                  ((
+
+       a                  ((                 a
+
+       +                  ((+                a
+
+       b                  ((+                ab
+
+       )                  ((+)               ab+
+
+       *                  (*                 ab+
+
+       (                  (*(                ab+
+
+       c                  (*(                ab+c
+
+       -                  (*(-               ab+c
+
+       d                  (*(-               ab-cd
+
+       )                  (*(-)              ab+cd-
+
+       /                  (/                 ab+cd-*
+
+       e                  (/                 ab+cd-*e
+
+       ^                  (/^                ab+cd-*e
+
+       f                  (/^                ab+cd-*ef
+
+       )                  (/^)               ab+cd-*ef^/
+
+
+       example ((a * b) ^ (c / d) * (e - f) - g)
+
+
+     Scanning          stack               postfix
+
+
+      (                 (
+
+      (                 ((
+
+      a                 ((                  a
+
+      *                 ((*                 a
+
+      b                 ((*                 ab
+
+      )                 ((*)                ab*
+
+      ^                 (^                  ab*
+
+      (                 (^(                 ab*
+
+      c                 (^(                 ab*c
+
+      /                 (^(/                ab*c
+      
+      d                 (^(/                ab*cd
+
+      )                 (^(/)               ab*cd/
+
+      *                 (^*                 ab*cd/^
+
+      (                 (*(                 ab*cd/^
+
+      e                 (*(                 ab*cd/^e
+
+      -                 (*(-                ab*cd/^e
+
+      f                 (*(-                ab*cd/^ef
+
+      )                 (*(-)               ab*cd/^ef-
+
+      -                 (*-                 ab*cd/^ef-*
+
+      g                 (-                  ab*cd/^ef-*g
+
+      )                 (-)                 ab*cd/^ef-*g-
+
+
+
+      ab*cd/^ef-*g-
+
+      infix to prefix
+          
+          1.reverse
+          2.infix - postfix
+          3.reverse
+
+      1. reverse (g - (f - e) * (d / c ) ^ (b * a))
+
+
+      2.infix to postfix
+
+      Scanning         stack               postfix
+
+        (               (                     
+
+        g               (                    g
+
+        -               (-                   g
+
+        (               (-(                  g
+
+        f               (-(                  gf
+
+        -               (-(-                 gf
+
+        e               (-(-                 gfe
+
+        )               (-(-)                gfe-
+
+        *               (-*                  gfe-
+
+        (               (-*(                 gfe-
+
+        d               (-*(                 gfe-d
+
+        /               (-*(/                gfe-d
+
+        c               (-*(/                gfe-dc
+
+        )               (-*(/)               gfe-dc/
+
+        ^               (-*^                 gfe-dc/
+
+        (               (-*^(                gfe-dc/
+
+        b               (-*^(                gfe-dc/b
+      
+        *               (-*^(*               gfe-dc/b
+
+        a               (-*^(*               gfe-dc/ba
+ 
+        )               (-*^(*)              gfe-dc/ba*
+
+        )               (-*^)                gfe-dc/ba*^*-
+
+      3.reverse 
+          
+          -*^*ab/cd-efg
+
+
+    Algorithm ()
+
+            Priority( op1,op2)
+            {
+              if(x == '^')
+                   return 3;
+
+              else if(x == '*' && x == ''/)
+                   return 2;
+
+              else if(x == '+' && x == '-')
+                  retrun 1;
+            }
+
+            return -1
+
+
+            infix to postifix (string)
+
+            priority(op1 > op2)
+                 return stack.pop()
+            
+            post = [] - operands
+            stack = [] - operators
+
+            if(x == '(')
+
+               stack.push()
+              continue;
+
+            else if( x == ')')
+
+                  while(x == '(')
+               post.append(stack.pop())
+
+            id( x is letter or digits())
+            {
+              post.appent(x);
+            }
+
+            return post()
+
+  postfix to infix
+
+        1.store all character
+         
+
+
+
