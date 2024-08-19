@@ -1,0 +1,98 @@
+How Java code Executes :
+
+
+                         compiler                                  interpreter
+   .java file       ------------------>      .class file       -------------------->     Machine code
+
+  human readable      (entire file)            byte code            (line by line)           0 and 1
+
+      |                                            |
+                                                   |
+      |
+  source code
+
+
+-------> byte code 
+            
+            this code will not directly run on a system
+            we need JVM to run this 
+            Reason why Java is platform independent
+
+
+
+More about platform independence 
+
+        it means that byte code can run on all operating systems
+
+        we need to convert source code to machine code so computer can understand 
+
+        comipler helps in doing this by turning it into executable code 
+
+        this executetble code is a set of instruction for the computer
+        
+        after compling c / c++ code we get .exe file which is platform dependent 
+        
+        it jaava we get bytecode JVM converts this to machine code 
+
+        java is platform independent but JVM is platform dependent
+
+
+
+
+Architecture :  
+     
+     JDK 
+        
+        JRE 
+           
+            JVM
+               
+                JIT
+
+
+JDK vs JRE vs JVM vs JIT 
+
+ JDK - java development kit
+      
+      provids environment to develop and run the java program
+      it is a packagae that includes:
+
+           development tools 
+           JRE            - execute your program
+           A compiler     - javac
+           archiver       - jar
+           docs Generator - javadoc
+           interpreter /loader
+
+  JRE - java runtime environment 
+
+      it is an installation package that provides environment to only run the program
+      it consist of :
+          
+          deployment technologys 
+          user interface toolkits 
+          integration libraries 
+          base libraries
+          JVM
+  
+  JVM - java virtual machine
+       
+       loading 
+       linking 
+       installation
+
+       JVM contains the stack and heap memory allocation
+
+  JIT - Just in time
+
+
+
+
+  source code ---------- > JDK (.javac file) ----------> Byte code -----------> JVM -----------> JRE
+                
+                      
+JRE is the box and JVM is the content in the JRE box 
+       
+       JVM do all function with help JRE 
+            
+            JRE provide various libraries and so on

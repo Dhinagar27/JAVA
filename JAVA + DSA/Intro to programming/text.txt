@@ -1,0 +1,76 @@
+what is programming language 
+   
+   pices of instruction that we are giving to the computer to perform a task
+
+types of languages :
+    
+    procedural 
+    functional 
+    object oriented 
+
+    other types :
+        
+        static languages :
+           
+            perform type checking in compile time
+            error will show at compile time 
+            declare datatype before you see it  
+            more control
+
+            example ( java )
+
+        Dynamic language :
+
+            perform type checking at runtime
+            error might not show till program is runtime
+            no need to declare datatype of variables 
+            saves time in writing code but might give error at runtime
+
+            example ( python )
+
+
+memory management :
+     
+     there are two type of memory :
+          
+          stack 
+          heap
+
+      example :
+
+        Here  a = 10
+              
+              a = is referance variable(stored in the stack)
+
+              10 = is the object(stored in the heap)
+          
+              when we call "a" it will print(10) because it has the pointing  the value "10":
+
+              note that  10 is not stored in a....
+
+      referance and object :
+          
+          a = [1,2,3,4,5]
+
+          b = a
+
+            Here "a" and "b" pointing to the same object [1,2,3,4,5] 
+
+            if there any changes in  "ONE referance variable" it will also affect the "other one"        
+
+      object with no referance variable :
+
+           if this happen it removed from memory when garbage collection hits
+
+          like 
+           
+           a = 10  then 
+
+           a = 37  here "a" is pointing to object "37" 
+
+                   so 10 will become alone like (without a referance variable) so it will be removed 
+          
+           
+
+
+

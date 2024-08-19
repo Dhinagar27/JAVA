@@ -1,0 +1,14 @@
+Flow charts
+   
+   start / stop
+
+   input / output
+
+   processing
+
+   condition
+
+
+Pseudocode 
+
+    it is a rough code
