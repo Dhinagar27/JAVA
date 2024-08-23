@@ -1,0 +1,2 @@
+  
+  Every file that ends with .java is the class
