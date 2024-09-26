@@ -4,24 +4,24 @@ Welcome to the JAVA repository! This project contains various Java programs and 
 
 # Contents
 
-## Basics: 
+### Basics: 
 Fundamental Java programs and concepts.
 
-# Data Structures: 
+### Data Structures: 
 Implementations of various data structures in Java.
 
-# OOP Concepts:
+### OOP Concepts:
 Object-Oriented Programming concepts and examples.
 
 Getting Started
 To get started with this repository:
 
-# Clone the repository:
+### Clone the repository:
 git clone https://github.com/Dhinagar27/JAVA.git
 
-# Navigate to the project directory:
+### Navigate to the project directory:
 cd JAVA
 
-# Contributing
+### Contributing
 Feel free to contribute to this repository by submitting issues or pull requests. Your contributions are always welcome!
 
