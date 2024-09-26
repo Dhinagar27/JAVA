@@ -4,7 +4,7 @@ Welcome to the JAVA repository! This project contains various Java programs and 
 
 # Contents
 
-# Basics: 
+## Basics: 
 Fundamental Java programs and concepts.
 
 # Data Structures: 
